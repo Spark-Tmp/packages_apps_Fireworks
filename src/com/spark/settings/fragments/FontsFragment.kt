@@ -61,7 +61,7 @@ class FontsFragment : SparkDashboardFragment() {
 
         private fun buildPreferenceControllers(
             context: Context,
-            host: ThemeSettings?,
+            host: FontsFragment?,
             lifecycle: Lifecycle?,
         ): List<AbstractPreferenceController> {
             return listOf(

@@ -61,7 +61,7 @@ import org.json.JSONObject
 class CustomFontPreferenceController(
     context: Context,
     key: String,
-    host: ThemeSettings?,
+    host: FontsFragment?,
     lifecycle: Lifecycle?,
 ) : BasePreferenceController(context, key),
     LifecycleEventObserver {
